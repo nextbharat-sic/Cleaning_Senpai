@@ -1,0 +1,81 @@
+/* "Copyright © 2025 Suzuki Motor Corporation All Rights Reserved" */
+/* app.css */
+.auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-header {
+  text-align: center;
+}
+
+.form-header h1 {
+  font-size: 28px;
+  color: #4caf50;
+}
+
+.form-header h2 {
+  font-size: 18px;
+  color: #4caf50;
+}
+
+.input-field {
+  margin-bottom: 20px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-button:hover {
+  background-color: #45a049;
+}
+
+.switch-page {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.switch-page span {
+  color: #4CAF50;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
+
+.create-account-link {
+  color: #4CAF50;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.sign-in-link {
+  color: #4CAF50;
+  cursor: pointer;
+  text-decoration: underline;
+}

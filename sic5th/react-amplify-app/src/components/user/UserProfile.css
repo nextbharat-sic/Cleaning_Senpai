@@ -1,0 +1,173 @@
+/* "Copyright © 2025 Suzuki Motor Corporation All Rights Reserved" */
+
+.user-profile-page-container {
+  background-color: #ffffff;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user-profile-header {
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+.user-profile-title {
+  font-size: 1.6rem;
+  color: #2c3e50;
+  font-weight: bold;
+  margin-top: 0;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.user-profile-section {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.user-profile-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.user-profile-item label {
+  font-weight: bold;
+  color: #333;
+}
+
+.user-profile-item span {
+  color: #333;
+}
+
+.user-contact-section {
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-contact-section h2 {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.user-logout-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.user-logout-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 10px auto;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: calc(100% - 40px);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.user-logout-button:hover {
+  background-color: #367c39;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .user-profile-title {
+    font-size: 2rem;
+    padding-top: 40px;
+  }
+
+  .user-profile-item label,
+  .user-profile-item span {
+    font-size: 0.8rem;
+  }
+
+  .user-contact-section h2,
+  .user-feedback-section h2 {
+    font-size: 0.9rem;
+  }
+
+  .user-feedback-button,
+  .user-logout-button {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.user-feedback-section {
+  border-radius: 15px;
+  padding: 15px;
+  margin: 5px;
+  display: flex;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+  background-color: white;
+}
+
+.user-feedback-section h2 {
+  font-size: 1.1rem;
+  color: #2c3e50;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.user-feedback-button {
+  border: 10px;
+  border-color: #28a745;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: #4caf50;
+}
+
+.user-feedback-button:hover {
+  background-color: #367c39;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.history-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}

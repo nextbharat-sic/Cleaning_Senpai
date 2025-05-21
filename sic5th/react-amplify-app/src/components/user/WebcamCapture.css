@@ -1,0 +1,166 @@
+/* "Copyright © 2025 Suzuki Motor Corporation All Rights Reserved" */
+
+.webcam-capture-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.camera-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.webcam {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttons-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.capture-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+  margin: 21px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  width: calc(100% - 40px);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.capture-button:hover {
+  background-color: #367c39;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.send-report-button {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.send-report-button:hover {
+  background-color: #218838;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.send-report-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.retake-button {
+  background-color: white;
+  border: 1px solid #218838;
+  border-color: #218838;
+  color: green;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.retake-button:disabled {
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.captured-photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding-top: 10%;
+}
+
+.image-preview-wrapper {
+  width: 100%;
+  max-width: 400px;
+  max-height: 300px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.captured-photo-container textarea {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 25px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.retake-button {
+  margin-top: 25px;
+}
+
+.send-report-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}

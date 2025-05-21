@@ -1,0 +1,68 @@
+/* "Copyright © 2025 Suzuki Motor Corporation All Rights Reserved" */
+
+.opening {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 40%;
+  margin: 0;
+  z-index: 10;
+  clip-path: inset(0 0 10% 0);
+}
+.opening-ios {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0;
+  z-index: 10;
+  clip-path: inset(0 0 10% 0);
+}
+
+
+@keyframes fadeInScaleUp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.1);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+.tap-message {
+  position: fixed;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  color: rgba(53, 51, 51, 0.694);
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  opacity: 0; 
+  transition: opacity 0.5s ease-in-out;
+  white-space: nowrap; 
+  animation: blink 1.5s infinite;
+}
+
+.tap-message.show {
+  opacity: 1;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

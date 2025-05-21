@@ -1,0 +1,134 @@
+/* "Copyright © 2025 Suzuki Motor Corporation All Rights Reserved" */
+
+@keyframes checkmarkAnimation {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    color: #333;
+    padding-bottom: 0%;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .icon-container {
+    background-color: rgba(0, 255, 0, 0.1);
+    border-radius: 50%;
+    padding: 30px;
+    margin-bottom: 20px;
+    animation: checkmarkAnimation 1s ease-in-out forwards;
+  }
+  
+  .icon {
+    font-size: 100px;
+    color: #28a745;
+    animation: checkmarkAnimation 1s ease-in-out forwards;
+  }
+  
+  .report-info {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #555;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  
+  .report-id-text {
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+    color: #333;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  
+ .message-text {
+    font-size: 15px;
+    padding: 0%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2.5s steps(30, end);
+  }
+  
+  .button:hover {
+    background-color: #218838;
+  }
+  
+  .nav-container {
+    margin-top: 30px;
+  }
+
+  .feedback-section {
+    border-radius: 15px;
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 0;
+  }
+  
+  .feedback-section h2 {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .feedback-button {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+  }
+  
+  .feedback-button:hover {
+    background-color: #367c39;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }

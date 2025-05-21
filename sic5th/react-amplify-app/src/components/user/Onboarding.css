@@ -1,0 +1,60 @@
+/* "Copyright © 2025 Suzuki Motor Corporation All Rights Reserved" */
+
+.onboarding-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.onboarding-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
+.onboarding-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.onboarding-container p {
+  font-size: 16px;
+  color: #6c757d;
+  margin-bottom: 20px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.onboarding-container button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.onboarding-container button:hover {
+  background-color: #218838;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.navigation-buttons button {
+  margin-right: 10px;
+}
+
+.navigation-buttons button:last-child {
+  margin-right: 0;
+}
+
+.imagebox{
+  height: 500px;
+}

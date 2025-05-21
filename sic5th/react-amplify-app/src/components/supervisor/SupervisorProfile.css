@@ -1,0 +1,128 @@
+/* "Copyright © 2025 Suzuki Motor Corporation All Rights Reserved" */
+
+.complaints-list-container {
+  margin-bottom: 70px;
+}
+
+.complaints-list-header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  margin: 0.3em;
+  z-index: 10;
+}
+
+.complaints-list-title {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.supervisor-profile-page-container {
+background-color: #ffffff;
+min-height: 50vh;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.supervisor-profile-section {
+background-color: white;
+border-radius: 15px;
+padding: 20px;
+margin: 10px 10px 0px 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.supervisor-profile-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+margin-bottom: 15px;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+flex-wrap: wrap;
+}
+
+.supervisor-profile-item label {
+font-weight: bold;
+color: #333;
+margin-right: 10px;
+}
+
+.supervisor-profile-item span {
+color: #333;
+}
+
+.supervisor-region-item {
+word-wrap: break-word;
+overflow-wrap: break-word;
+white-space: normal;
+}
+
+.supervisor-region-item span {
+display: inline-block;
+overflow-wrap: break-word;
+width: 80%;
+margin-top: 3%;
+}
+
+.supervisor-logout-button-container {
+width: 100%;
+display: flex;
+justify-content: center;
+padding-bottom: 80px;
+padding-top: 20px;
+}
+
+.supervisor-logout-button {
+background-color: #4caf50;
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: block;
+font-size: 16px;
+margin: 0;
+cursor: pointer;
+border-radius: 8px;
+transition-duration: 0.4s;
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+width: calc(100% - 40px);
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.supervisor-logout-button:hover {
+background-color: #367c39;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+.supervisor-profile-title {
+  font-size: 2rem;
+}
+
+.supervisor-profile-item label,
+.supervisor-profile-item span {
+  font-size: 0.9rem;
+}
+
+.supervisor-logout-button {
+  font-size: 14px;
+}
+}
+
+.complaints-list-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}

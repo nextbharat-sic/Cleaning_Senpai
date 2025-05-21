@@ -1,0 +1,20 @@
+[
+    { "name": "Supermarket", "coordinates": [78.11974013493466, 17.58528534509996] },
+    { "name": "Convention center", "coordinates": [78.11999578238442, 17.587588023959967] },
+    { "name": "Hospital", "coordinates": [78.12392201486824, 17.58749757640203] },
+    { "name": "Canteen", "coordinates": [78.1271221259446, 17.596336582908677] },
+    { "name": "Old Hostels", "coordinates": [78.12631390913123, 17.59740873764821] },
+    { "name": "I , J Hostel", "coordinates": [78.12572148660354, 17.596107673953384] },
+    { "name": "New Hostels", "coordinates": [78.12297504883605, 17.598993533380522] },
+    { "name": "SNCC", "coordinates": [78.12355500064183, 17.601998810822565] },
+    { "name": "Lecture Hall", "coordinates": [78.12309074482636, 17.592458193237576] },
+    { "name": "Academic Blocks", "coordinates": [78.12384342078832, 17.59458551037119] },
+    { "name": "Married Hostel", "coordinates": [78.12569813222285, 17.59069420202549] },
+    { "name": "TRP", "coordinates": [78.1202237907919, 17.589250674038524] },
+    { "name": "IGH", "coordinates": [78.11871639295123, 17.586862017484094] },
+    { "name": "Main Gate", "coordinates": [78.12117536123719, 17.580917372218806] },
+    { "name": "Old Mess A", "coordinates": [78.1257076186767, 17.598518802084754] },
+    { "name": "New Mess B", "coordinates": [78.12273976106502, 17.597854000488454] },
+    { "name": "Tihan", "coordinates": [78.12684152624627, 17.60204638855498] }
+  ]
+  

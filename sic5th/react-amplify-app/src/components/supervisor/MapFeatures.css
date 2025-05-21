@@ -1,0 +1,71 @@
+/* "Copyright © 2025 Suzuki Motor Corporation All Rights Reserved" */
+
+.landmark-pin {
+  width: 20px;
+  height: 20px;
+  background-color: gray;
+  border-radius: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  box-sizing: border-box;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.landmark-label {
+  position: absolute;
+  top: -20px;
+  font-size: 15px;
+  color: black;
+  text-shadow: 2px 2px 3px white, -2px -2px 3px white, 2px -2px 3px white, -2px 2px 3px white;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 10;
+  pointer-events: none;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.green-pin {
+  z-index: 1;
+}
+
+.deny-button {
+  font-size: 14px;
+  padding: 8px 12px;
+  background-color: white;
+  border: 1px solid #b4331a;
+  color: #b4331a;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deny-button:hover {
+  background-color: #c0392b;
+}
+
+.change-status-button {
+  font-size: 14px;
+  padding: 8px 12px;
+  color: #28a745;
+  background-color: white;
+  border: 1px solid #28a745;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.change-status-button:hover {
+  background-color: #218838;
+}
+
+.button-container {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}

@@ -1,0 +1,62 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactamplifyapp-dev-91a72-authRole",
+      "UnauthRoleArn": "arn:aws:iam::490004651905:role/amplify-reactamplifyapp-dev-91a72-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::490004651905:role/amplify-reactamplifyapp-dev-91a72-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-reactamplifyapp-dev-91a72-deployment",
+      "UnauthRoleName": "amplify-reactamplifyapp-dev-91a72-unauthRole",
+      "StackName": "amplify-reactamplifyapp-dev-91a72",
+      "StackId": "arn:aws:cloudformation:ap-south-1:490004651905:stack/amplify-reactamplifyapp-dev-91a72/51487dd0-c28c-11ef-8cd0-02e1d2cbe759",
+      "AmplifyAppId": "d1q6hnmlzbccj"
+    },
+    "categories": {
+      "auth": {
+        "reactamplifyapp3b128aa6": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  },
+  "st": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactamplifyapp-st-35a7d-authRole",
+      "UnauthRoleArn": "arn:aws:iam::490004651905:role/amplify-reactamplifyapp-st-35a7d-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::490004651905:role/amplify-reactamplifyapp-st-35a7d-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-reactamplifyapp-st-35a7d-deployment",
+      "UnauthRoleName": "amplify-reactamplifyapp-st-35a7d-unauthRole",
+      "StackName": "amplify-reactamplifyapp-st-35a7d",
+      "StackId": "arn:aws:cloudformation:ap-south-1:490004651905:stack/amplify-reactamplifyapp-st-35a7d/40a060e0-d8b4-11ef-a1ee-0648fced6461",
+      "AmplifyAppId": "d1q6hnmlzbccj"
+    },
+    "categories": {
+      "auth": {
+        "reactamplifyapp3b128aa6": {}
+      },
+      "hosting": {
+        "S3AndCloudFront": {}
+      }
+    }
+  },
+  "pr": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-reactamplifyapp-pr-2ea80-authRole",
+      "UnauthRoleArn": "arn:aws:iam::148761674409:role/amplify-reactamplifyapp-pr-2ea80-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::148761674409:role/amplify-reactamplifyapp-pr-2ea80-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-reactamplifyapp-pr-2ea80-deployment",
+      "UnauthRoleName": "amplify-reactamplifyapp-pr-2ea80-unauthRole",
+      "StackName": "amplify-reactamplifyapp-pr-2ea80",
+      "StackId": "arn:aws:cloudformation:ap-south-1:148761674409:stack/amplify-reactamplifyapp-pr-2ea80/bb0c4070-d953-11ef-ab58-0a2db1127c8f",
+      "AmplifyAppId": "d21jwfpaiyzw82"
+    },
+    "categories": {
+      "auth": {
+        "reactamplifyapp3b128aa6": {}
+      }
+    }
+  }
+}
