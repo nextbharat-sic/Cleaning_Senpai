@@ -1,7 +1,7 @@
 <!-- "Copyright © 2025 Suzuki Motor Corporation All Rights Reserved" -->
 # CleaningSENPAI
  
-App focused on waste management in IITH
+App focused on waste management in campuses
  
 Take a picture of the waste problem and inform the cleaning crew.
 
